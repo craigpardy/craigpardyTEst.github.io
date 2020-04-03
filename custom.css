@@ -1,0 +1,103 @@
+body{
+    font: Arial;
+}
+
+.image {
+    position: relative ;
+    padding: 0px ;
+    margin: 0px ;
+}
+
+/*.text {
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    transform: translate(-50%, -50%);
+   
+}*/
+
+.container-fluid{
+    margin: 0px ;
+    padding: 0px ;
+    
+    
+}
+
+.skill-set-div{
+    padding: 5px;
+}
+
+.landing-page {
+    
+    width: 100% ;
+    height: 100%;
+}
+
+.progress-bar {
+    background-color: cadetblue;
+}
+
+a {
+    color: cadetblue;
+}
+
+.btn {
+    color: white;
+    background-color: cadetblue;
+}
+
+
+
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .text {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    font-size: 6px;
+
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .text {
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    transform: translate(-50%, -50%);
+    font-size: 8px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .text {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    transform: translate(-50%, -50%);
+    font-size: 10px;;
+
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .text {
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+
+}
+
+}
